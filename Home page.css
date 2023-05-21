@@ -1,0 +1,398 @@
+
+
+.logo{
+	position: absolute;
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.logo:hover{
+    border: none;
+    cursor: pointer;
+}
+
+.btn1{
+    border: none;
+}
+
+
+
+.l1{
+	 position: absolute;
+    list-style: none;
+    font-family: "Gotham";
+    margin-left: 950px;
+    margin-top: 8px;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("Gotham.woff2");
+}
+
+
+.li1{
+	display: inline;
+    margin: left -2px;
+    font-size: 15px;
+    color: rgb(12,210,224);
+    font-weight: bold;
+    
+    
+ }
+
+ .btn{
+    margin-left: 25px;
+   
+
+ }
+
+ .l2 {
+    position: absolute;
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.li2 {
+    display: inline;
+    margin-left:95px;
+    font-size: 14px;
+    font-family: "Gotham";
+    color: rgb(12,210,224);
+    font-weight: bolder;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color:  #ffdab9;
+    box-shadow: 0px 0px 5px 5px rgb(0,206,209);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    
+}
+
+.li2:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 5px rgb(0,206,209);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    }
+
+    .a{
+       text-decoration: none;
+       color:rgb(12,210,224) ;
+
+    }
+
+/* Slide Animation */
+.b1{
+    margin-top: 100px;
+    height: 530px;
+    margin-left: -3px;
+    background: 100%;
+}
+
+.slider{
+    overflow: hidden;
+
+}
+
+.slider figure{
+    position: relative;
+    width: 499%;
+    margin:-0%;
+    left: 0%;
+    animation: 20s slider infinite;
+}
+.slider figure img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    20%{
+        left:0%;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+
+.heading{
+    color: rgb(12,210,224);
+    text-align: center;
+    font-family: Gotham;
+    font-weight: lighter;
+    
+}
+
+.h2 {
+    font-family: Gotham;
+    font-weight: lighter;
+    font-style: gray;
+    text-align: center;
+
+}
+
+.h3{
+   color: rgb(12,210,224);
+    text-align: center;
+    font-family: Gotham;
+    font-weight: lighter; 
+}
+
+.p1{
+    font-family: Gotham;
+    font-weight: bold;
+    font-style: gray;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.p2{
+    font-family: Gotham;
+    font-weight: bold;
+    font-style: gray;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.h1{
+    color: rgb(12,210,224);
+    text-align: center;
+    margin: 100px auto;
+    max-width: 550px;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+
+
+
+.sh1{
+    font-family: Gotham;
+    font-weight: bold;
+    font-style: gray;
+    margin-top: -220px;
+    margin-left: 30px;
+
+}
+
+.gs{
+    font-family: Gotham;
+    font-weight: bold;
+    color: rgb(12,210,224);
+    line-height: 50px;
+}
+
+
+.container{
+    width: 300px;
+    height: 200px;
+    border: 1px;
+    border-color:  solid red;
+    margin-left: 500px;
+}
+
+.bb{
+    width: 200px;
+    height: 200px;
+    margin-top: -550px;
+    margin-left: -160px;
+
+}
+
+.bb:hover{
+    cursor: pointer;
+    
+    box-shadow: 0px 0px 5px 5px rgb(0,206,209);
+    transition-duration: 0.5s;
+}
+
+*{
+    margin: 0px;
+    padding: 3px;
+}
+
+.cards{
+    width:25%;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    flex-wrap: wrap;
+}
+
+.ht{
+    height: 350px;
+}
+.cards:hover{
+    
+    cursor: pointer;
+    background-color: #ffdab9;
+    color: black;
+    transform:scale(1.03) ;
+    transition: all 1s ease;
+    
+
+}
+.body{
+    font-family: Gotham;
+}
+
+.image img{
+    width: 100%;
+}
+
+.line{
+   width: 100%;
+  
+   border: none;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   background-color: black;
+}
+
+.bimg{
+    position: absolute;
+    width: 200px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    border-radius: none;
+    
+}
+
+.vertical-line{
+    width: 1px;
+    height: 160px;
+    background-color: black;
+    margin-left: 250px;
+    margin-top: -90px;
+}
+
+.cil3{
+    
+        
+        margin-left:100px;
+        font-size: 14px;
+        font-family: "Gotham";
+        color: rgb(12,210,224);
+        font-weight: bold;
+        cursor: pointer;
+        line-height: 20px;
+        margin-top: -10px;
+    
+}
+
+.vertical-line1{
+    width: 0.5px;
+    height: 160px;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -166px;
+}
+
+.cl3{
+    position: absolute;
+    list-style: none;
+    margin-left: 175px;
+    margin-top: -180px;
+    
+}
+
+.cts{
+    margin-left: 520px;
+    margin-top: -169px;
+}
+
+.tel{
+    height: 30px;
+    width: 30px;
+    margin-left: 520px;
+    margin-top: -2px;
+}
+
+.telno{
+    margin-left: 560px;
+    margin-top: -25px;  
+}
+
+.adimg{
+    height: 30px;
+    width: 30px;
+    margin-left: 520px;
+    margin-top: -1px;
+}
+
+.adname{
+    margin-left: 560px;
+    margin-top: -20px;  
+}
+
+.eimg{
+    height: 30px;
+    width: 30px;
+    margin-left: 520px;
+    margin-top: -1px;
+}
+
+.email{
+    margin-left: 560px;
+    margin-top: -30px; 
+}
+
+.vertical-line2{
+    width: 0.5px;
+    height: 160px;
+    background-color: black;
+    margin-left: 900px;
+    margin-top: -160px;
+}
+
+.hline{
+    margin-left: 960px;
+    margin-top: -150px;    
+}
+
+.hlnumber{
+    margin-left: 960px;
+    margin-top: -0.2px;
+}
